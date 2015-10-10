@@ -19,3 +19,6 @@ df.event = df.event.astype(np.int64)
 df.metastized = (df.metastized == 'yes').astype(np.int64)
 n_patients = df.shape[0]
 patients = np.arange(n_patients)
+
+df.head()
+n_patients
