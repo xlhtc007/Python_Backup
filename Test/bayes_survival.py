@@ -20,5 +20,14 @@ df.metastized = (df.metastized == 'yes').astype(np.int64)
 n_patients = df.shape[0]
 patients = np.arange(n_patients)
 
+<<<<<<< Updated upstream
 df.head()
 n_patients
+=======
+<<<<<<< HEAD
+df.head()
+=======
+df.head()
+n_patients
+>>>>>>> origin/master
+>>>>>>> Stashed changes
